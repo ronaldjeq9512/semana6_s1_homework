@@ -1,0 +1,42 @@
+$principal-shadow : 3px 3px 1px 1px rgba(32, 31, 31, 0.041);
+
+body {
+    & >header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+h1 {
+    flex: 3;
+}
+
+.container-buttons {
+    flex: 8;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px
+}
+
+.image-right {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    box-shadow: $principal-shadow
+}
+.image-left {
+    display: flex;
+    background-color: orange;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-width: 1px;
+}
